@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply overflow-hidden text-primary font-secondary bg-white;
+  }
+  .h1 {
+    @apply text-[54px] lg:text-[98px] font-primary text-gray-900 font-bold  text-center  capitalize leading-[120%] tracking-[-0.05em] mb-2;
+  }
+  .section {
+    @apply h-screen w-screen;
+  }
+  .btn {
+    @apply py-[18px] px-[50px] h-[58px] flex   items-center shadow-xl justify-center text-base uppercase font-secondary font-semibold bg-gray-900 text-white;
+  }
+}
+ .shadows{text-shadow: -6px 0px 5px #e1e1e1;}
+
+
+
+.contentp{
+  height: 100vh;
+
+  }
+
+.text-content{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  padding: 5px 15px;
+  transform: translate(-50%,-50%);
+  background: #e1e1e1;
+  color: antiquewhite;
+  border-radius: 20px;
+}
+
+ 
+ .mobtext{
+  text-align: center;
+ }
+
+ .columngap{
+  column-gap: 15rem;
+ }
+
+ @media (max-width: 1024px) {
+  #abouttext {
+    padding-top: 32rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .mobgrid {
+    display: list-item;
+  }
+}
+
+@media (max-width: 767px) {
+  .margpor {
+    margin: 40px 0px;
+  }
+}
+
+.mobgrid{
+  margin: 50px;
+  padding-bottom: 50px;
+}
+
+.gallery-wrap {
+ 
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+  }
+
+  @media (max-width: 767px) {
+    .gallery-wrap{
+      flex-direction: column;
+      gap: 20px;
+      height: 160vh;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .gallery-wrap{
+      flex-direction: column;
+      gap: 20px;
+      height: 160vh;
+    }
+  }
+  
+  .item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 1.0s ease;
+  }
+  
+  .item:hover {
+  flex: 8;
+  
+  }
+  
+  .item-1 {
+  background-image: url('./img/portfolio/mediamodifier_image\ \(1\).png');
+  }
+  
+  .item-2 {
+  background-image: url('./img/portfolio/candel_mockup.jpg');
+  }
+  
+  .item-3 {
+  background-image: url('./img/portfolio/modern-browser-mockup\ \(16\).png');
+  }
+  
+  .item-4 {
+  background-image: url('./img/portfolio/imac-screen-mockup\ \(5\).png');
+  }
+  
+  .item-5 {
+  background-image: url('./img/portfolio/modern-browser-mockup\ \(20\).png');
+  }
+  .item-6 {
+    background-image: url('./img/portfolio/mediamodifier_image\ \(10\).png');
+    }
