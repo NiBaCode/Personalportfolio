@@ -31,7 +31,7 @@ const Portfolio = () => {
         exit={{ opacity: 0, y:'80%'}}
         transition={transition1}
         className='flex flex-col justify-center items-center text-center'>
-          <h1 className='h1 shadows'>Portfolio</h1>
+          <h1 className='h1 poch shadows'>Portfolio</h1>
           <p className='mb-12 max-w-lg px-4 justify-center items-center'><br />Let's go in to my world! <br/>Here you will find a selection of my best <br/>
           web design and development projects. <br/>
           Each work is the result of a process of research, analysis and a consequent creative approach.<br/> <br/><b>Thanks for looking.  </b>
@@ -51,7 +51,7 @@ const Portfolio = () => {
            {/*images*/}
          
            <div className="gallery-wrap grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 shadows">
-  <a href='https://www.behance.net/gallery/166037771/UIUX-Candles-Shop-HomepageAbout-us-page-Design' className="item item-1 bg-cover bg-center h-80 md:h-96 lg:h-auto">.</a>
+  <a href='https://www.behance.net/gallery/171766333/UIUX-Personal-Portfolio-nicode' className="item item-1 bg-cover bg-center h-80 md:h-96 lg:h-auto">.</a>
   <a href='https://www.behance.net/gallery/166037771/UIUX-Candles-Shop-HomepageAbout-us-page-Design' className="item item-2 bg-cover bg-center h-80 md:h-96 lg:h-auto" >.</a>
   <a href='https://www.behance.net/gallery/162165075/UIUX-Landing-page-House-Wine-Cantina-Azzoni-Design' className="item item-3 bg-cover bg-center h-80 md:h-96 lg:h-auto" >.</a>
   <a href='https://www.behance.net/gallery/170489375/UIUX-Cars-Website-Design' className="item item-4 bg-cover bg-center h-80 md:h-96 lg:h-auto" >.</a>

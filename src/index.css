@@ -18,7 +18,7 @@
 }
  .shadows{text-shadow: -6px 0px 5px #e1e1e1;}
 
-
+.poch{margin-top: 20px;}
 
 .contentp{
   height: 100vh;
@@ -47,7 +47,7 @@
 
  @media (max-width: 1024px) {
   #abouttext {
-    padding-top: 32rem;
+    padding-top: 31rem;
   }
 }
 
@@ -104,6 +104,11 @@
   .item:hover {
   flex: 8;
   
+  }
+  @media (max-width: 767px) {
+    .item:hover{
+      display: none
+    }
   }
   
   .item-1 {
