@@ -51,12 +51,12 @@ const Portfolio = () => {
            {/*images*/}
          
            <div className="gallery-wrap grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 shadows">
-  <a href='https://www.behance.net/gallery/166037771/UIUX-Candles-Shop-HomepageAbout-us-page-Design' className="item item-1 bg-cover bg-center h-80 md:h-96 lg:h-auto"></a>
-  <a href='https://www.behance.net/gallery/166037771/UIUX-Candles-Shop-HomepageAbout-us-page-Design' className="item item-2 bg-cover bg-center h-80 md:h-96 lg:h-auto" ></a>
-  <a href='https://www.behance.net/gallery/162165075/UIUX-Landing-page-House-Wine-Cantina-Azzoni-Design' className="item item-3 bg-cover bg-center h-80 md:h-96 lg:h-auto" ></a>
-  <a href='https://www.behance.net/gallery/170489375/UIUX-Cars-Website-Design' className="item item-4 bg-cover bg-center h-80 md:h-96 lg:h-auto" ></a>
-  <a href='http://nico93.altervista.org/' className="item item-5 bg-cover bg-center h-80 md:h-96 lg:h-auto" ></a>
-  <a href='https://www.behance.net/gallery/166408663/UIUX-Interior-Design-Agency-Homepage-Design' className="item item-6 bg-cover bg-center h-80 md:h-96 lg:h-auto" ></a>
+  <a href='https://www.behance.net/gallery/166037771/UIUX-Candles-Shop-HomepageAbout-us-page-Design' className="item item-1 bg-cover bg-center h-80 md:h-96 lg:h-auto">.</a>
+  <a href='https://www.behance.net/gallery/166037771/UIUX-Candles-Shop-HomepageAbout-us-page-Design' className="item item-2 bg-cover bg-center h-80 md:h-96 lg:h-auto" >.</a>
+  <a href='https://www.behance.net/gallery/162165075/UIUX-Landing-page-House-Wine-Cantina-Azzoni-Design' className="item item-3 bg-cover bg-center h-80 md:h-96 lg:h-auto" >.</a>
+  <a href='https://www.behance.net/gallery/170489375/UIUX-Cars-Website-Design' className="item item-4 bg-cover bg-center h-80 md:h-96 lg:h-auto" >.</a>
+  <a href='http://nico93.altervista.org/' className="item item-5 bg-cover bg-center h-80 md:h-96 lg:h-auto" >.</a>
+  <a href='https://www.behance.net/gallery/166408663/UIUX-Interior-Design-Agency-Homepage-Design' className="item item-6 bg-cover bg-center h-80 md:h-96 lg:h-auto" >.</a>
 
 </div>
          
