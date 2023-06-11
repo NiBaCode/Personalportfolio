@@ -32,7 +32,7 @@ const Portfolio = () => {
         transition={transition1}
         className='flex flex-col justify-center items-center text-center'>
           <h1 className='h1 poch shadows'>Portfolio</h1>
-          <p className='mb-12 max-w-lg px-4 justify-center items-center'><br />Let's go in to my world! <br/>Here you will find a selection of my best <br/>
+          <p className='mb-12 max-w-lg px-4 justify-center items-center'><br />Let's go into my world! <br/>Here you will find a selection of my best <br/>
           web design and development projects. <br/>
           Each work is the result of a process of research, analysis and a consequent creative approach.<br/> <br/><b>Thanks for looking.  </b>
 

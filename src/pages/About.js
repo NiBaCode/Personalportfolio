@@ -46,7 +46,7 @@ const About = () => {
           <p className='mb-12 max-w-lg px-4 text-center'>
             <br />
             Welcome to my creative world!<br/> I'm Nicola, 
-             I'm a passionate <b>Web designer</b> and <b>jr Frontend</b> developer with a 
+             a passionate <b>Web designer</b> and <b>jr Frontend</b> developer with a 
              love for technology, art, and photography. I thrive on turning ideas into 
              compelling digital products. With meticulous attention to detail and unwavering dedication,
              I offer innovative and engaging digital solutions that will give you the chance to have a solid online presence.."<br/><br/>
