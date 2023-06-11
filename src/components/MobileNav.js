@@ -30,6 +30,15 @@ const menuVariants = {
 
 const MobileNav = () => {
   const [openMenu, setOpenMenu] = useState(false);
+
+  //function to close the menu
+  const closeMenu = () => {
+    setOpenMenu(false);
+    setTimeout(() => {
+      setOpenMenu(false);
+    }, 3000);
+  };
+
   return (
     <nav className='text-primary xl:hidden'>
       {/*nav open button*/}
@@ -52,29 +61,26 @@ const MobileNav = () => {
         <ul className='h-full flex flex-col justify-center items-center 
           gap-y-8 text-primary font-primary font-bold text-3xl'>
           <li>
-            <Link to='/'>Home</Link>
+            <Link to='/' onClick={closeMenu}>Home</Link>
           </li>
           <li>
-            <Link to='/about'>About</Link>
+            <Link to='/about' onClick={closeMenu}>About</Link>
           </li>
           <li>
-            <Link to='/portfolio'>Portfolio</Link>
+            <Link to='/portfolio' onClick={closeMenu}>Portfolio</Link>
           </li>
           <li>
-            <Link to='/contact'>Contact</Link>
+            <Link to='/contact' onClick={closeMenu}>Contact</Link>
           </li>
           
       
-      <a href='/https://www.behance.net/921433c1_NiWebDesign' target='_blank' >
-      <ImBehance /></a>
-     
-    
-    
-      
-      <a href='https://github.com/NiBaCode' target='_blank' >
-      <ImGithub /> </a>
-     
-    
+          <a href='/https://www.behance.net/921433c1_NiWebDesign' target='_blank' onClick={closeMenu}>
+            <ImBehance />
+          </a>
+         
+          <a href='https://github.com/NiBaCode' target='_blank' onClick={closeMenu}>
+            <ImGithub />
+          </a>
         </ul>
         
       </motion.div>
